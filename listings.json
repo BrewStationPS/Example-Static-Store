@@ -8,11 +8,27 @@
         "download": "https://github.com/HarommelRabbid/RabbidMultiToolVita/releases/download/0.12pre2/Rabbid.MultiTool.0.12pre2.vpk"
     },
     {
-        "title": "Test HB",
-        "titleid": "TEST78901",
-        "author": "Some other author",
-        "platform": "PS3",
+        "title": "Rabbid MultiTool LPP-Vita",
+        "titleid": "RBMT78901",
+        "author": "Harommel",
+        "platform": "PS Vita",
         "externaldl": true,
-        "download": "None"
+        "download": "https://github.com/HarommelRabbid/RabbidMultiToolLPP-Vita/releases/download/0.1/Rabbid.MultiTool.LPP-Vita.0.1.vpk"
+    },
+    {
+        "title": "Better QR Scanner",
+        "titleid": "BETTERQRS",
+        "author": "Harommel",
+        "platform": "PS Vita",
+        "externaldl": true,
+        "download": "https://github.com/HarommelRabbid/BetterQRScanner/releases/download/24-07-25/Better.QR.Scanner.vpk"
+    },
+    {
+        "title": "Aleph One",
+        "titleid": "ALPH00001",
+        "author": "DrDecki",
+        "platform": "PS Vita",
+        "externaldl": true,
+        "download": "https://github.com/DrDecki/Aleph-One-Marathon-Trilogy-PsVita-/releases/download/AlephOneVita1.4/alephone.vpk"
     }
 ]
