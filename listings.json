@@ -29,6 +29,8 @@
         "author": "DrDecki",
         "platform": "PS Vita",
         "externaldl": true,
-        "download": "https://github.com/DrDecki/Aleph-One-Marathon-Trilogy-PsVita-/releases/download/AlephOneVita1.4/alephone.vpk"
+        "download": "https://github.com/DrDecki/Aleph-One-Marathon-Trilogy-PsVita-/releases/download/AlephOneVita1.4/alephone.vpk",
+        "datafiles": true,
+        "externaldf": "https://github.com/DrDecki/Aleph-One-Marathon-Trilogy-PsVita-/releases/download/AlephOneVita1.4/AlephOne.zip"
     }
 ]
