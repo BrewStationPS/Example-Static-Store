@@ -1,14 +1,7 @@
 $(document).ready(function () {
-    var json = [
-        {
-            "icon": "Placeholder",
-            "title": "Test app",
-            "titleid": "TEST78900",
-            "author": "Some author",
-            "platform": "PS Vita",
-            "download": "None"
-        }
-    ];
+    const response = await fetch('./listings.json');
+    const json = await response.json();
+
     var tr;
     for (var i = 0; i < json.length; i++) {
         tr = $('<tr/>');
