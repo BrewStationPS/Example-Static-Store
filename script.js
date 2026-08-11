@@ -1,16 +1,16 @@
 $(document).ready(function () {
-    const response = await fetch('./listings.json');
-    const json = await response.json();
-
-    var tr;
-    for (var i = 0; i < json.length; i++) {
-        tr = $('<tr/>');
-        tr.append("<td>" + json[i].icon + "</td>");
-        tr.append("<td>" + json[i].title + "</td>");
-        tr.append("<td>" + json[i].titleid + "</td>");
-        tr.append("<td>" + json[i].author + "</td>");
-        tr.append("<td>" + json[i].platform + "</td>");
-        tr.append("<td>" + json[i].download + "</td>");
-        $('table').append(tr);
-    }
+    $.getJSON('./listings.json', function (json) {
+        $.each(json, function (i, item) {
+            var tr = $('<tr/>');
+            tr.append("<td>" + item.icon + "</td>");
+            tr.append("<td>" + item.title + "</td>");
+            tr.append("<td>" + item.titleid + "</td>");
+            tr.append("<td>" + item.author + "</td>");
+            tr.append("<td>" + item.platform + "</td>");
+            tr.append("<td>" + item.download + "</td>");
+            $('table').append(tr);
+        });
+    }).fail(function (jqxhr, textStatus, error) {
+        console.error('Error loading JSON:', textStatus, error);
+    });
 });
