@@ -1,16 +1,18 @@
 [
     {
-        "title": "Test app",
-        "titleid": "TEST78900",
-        "author": "Some author",
+        "title": "Rabbid MultiTool",
+        "titleid": "RBMT78900",
+        "author": "Harommel",
         "platform": "PS Vita",
-        "download": "None"
+        "externaldl": true,
+        "download": "https://github.com/HarommelRabbid/RabbidMultiToolVita/releases/download/0.12pre2/Rabbid.MultiTool.0.12pre2.vpk"
     },
     {
         "title": "Test HB",
         "titleid": "TEST78901",
         "author": "Some other author",
         "platform": "PS3",
+        "externaldl": true,
         "download": "None"
     }
 ]
