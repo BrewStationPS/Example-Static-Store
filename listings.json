@@ -1,6 +1,5 @@
 [
     {
-        "icon": "Placeholder",
         "title": "Test app",
         "titleid": "TEST78900",
         "author": "Some author",
@@ -8,7 +7,6 @@
         "download": "None"
     },
     {
-        "icon": "Placeholder",
         "title": "Test HB",
         "titleid": "TEST78901",
         "author": "Some other author",
