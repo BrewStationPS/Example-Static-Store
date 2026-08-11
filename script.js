@@ -2,7 +2,7 @@ $(document).ready(function () {
     $.getJSON('./listings.json', function (json) {
         $.each(json, function (i, item) {
             var tr = $('<tr/>');
-            tr.append("<td>" + item.icon + "</td>");
+            tr.append("<td><img src=\"./icons/" + item.titleid + ".png\" width=\"256px\" /></td>");
             tr.append("<td>" + item.title + "</td>");
             tr.append("<td>" + item.titleid + "</td>");
             tr.append("<td>" + item.author + "</td>");
