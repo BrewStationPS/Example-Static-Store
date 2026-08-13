@@ -2,6 +2,7 @@
     {
         "title": "Rabbid MultiTool",
         "titleid": "RBMT78900",
+        "version": "0.12pre2",
         "author": "Harommel",
         "platform": "PS Vita",
         "category": "Utility",
@@ -11,6 +12,7 @@
     {
         "title": "Rabbid MultiTool LPP-Vita",
         "titleid": "RBMT78901",
+        "version": "0.1",
         "author": "Harommel",
         "platform": "PS Vita",
         "category": "Utility",
@@ -20,6 +22,7 @@
     {
         "title": "Better QR Scanner",
         "titleid": "BETTERQRS",
+        "version": "24-07-25",
         "author": "Harommel",
         "platform": "PS Vita",
         "category": "Utility",
@@ -29,6 +32,7 @@
     {
         "title": "Vita Sokoban",
         "titleid": "VTSOKOBAN",
+        "version": "02-11-25",
         "author": "Harommel",
         "platform": "PS Vita",
         "category": "Game",
