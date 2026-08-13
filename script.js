@@ -3,6 +3,7 @@ $(document).ready(function () {
         $.each(json, function (i, item) {
             var tr = $('<tr/>');
             tr.append("<td><img src=\"./icons/" + item.titleid + ".png\" width=\"64px\" /></td>");
+            tr.append("<td>" + item.titleid + "</td>");
             tr.append("<td>" + item.title + "</td>");
             tr.append("<td>" + item.version + "</td>");
             tr.append("<td>" + item.category + "</td>");
