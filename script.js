@@ -4,6 +4,7 @@ $(document).ready(function () {
             var tr = $('<tr/>');
             tr.append("<td><img src=\"./icons/" + item.titleid + ".png\" width=\"64px\" /></td>");
             tr.append("<td>" + item.title + "</td>");
+            tr.append("<td>" + item.version + "</td>");
             tr.append("<td>" + item.category + "</td>");
             tr.append("<td>" + item.author + "</td>");
             tr.append("<td>" + item.platform + "</td>");
